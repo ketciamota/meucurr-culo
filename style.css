@@ -40,6 +40,13 @@ section#competenciassocioemocionais {
     padding: 30px 30px 30px 30px;
 }
 
+section#competenciastecnicas {
+    background-color: rgb(203, 78, 145);
+    margin: 30px 200px 30px 200px;
+    border: 30px 30px 30px 30px;
+    padding: 30px 30px 30px 30px;
+}
+
 section#idiomas {
     background-color: rgb(220, 145, 180);
     margin: 30px 200px 30px 200px;

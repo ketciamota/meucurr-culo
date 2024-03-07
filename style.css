@@ -70,3 +70,63 @@ section#demaishabilidades {
     margin-left: 2rem;
 }
 
+section {
+    padding: 40px 0;
+}
+
+section p {
+    color: var(--cor-primaria-texto);
+}
+
+#apresentacao {
+    background-color:  var(--cor-fundo-apresentacao);
+}
+
+#formacaoAcademica  {
+    background-color: aquamarine;
+
+}
+
+#experienciaProfissional {
+    background-color: rgb(235, 214, 188);
+}
+
+#competenciasSocioemocionais {
+    background-color: rgb(135, 178, 216);
+}
+:root{ /* -> elemento raiz (html). mais alta hierarquia */
+    font-size:  16px; /* tamanho base do rem -> 1rem  = 16px*/
+    scroll-behavior: smooth;
+    --cor-primeira-texto:#353535;
+    --padding-padrao-secao: 40px;
+
+    /* tema light */
+    --plano-fundo:#ffffff;
+    --cor-primeira-texto:#353535;
+    --cor-fundo-tags:#bebebe}
+
+[data-tema="light"] {
+    --plano-fundo:#ffffff;
+    --cor-primeira-texto:#353535;
+    --cor-fundo-tags:#bebebe;
+    --cor-fundo-apresentacao:#9f3478;
+    --cor-fundo-formacaoacademica:#036d03;
+    --cor-fundo-experienciaProfissional:#fff2e3;
+}
+
+[data-tema="dark"] {
+    --plano-fundo:#150f0f;
+    --cor-primeira-texto:#353535;
+    --cor-fundo-tags:#bebebe;
+    --cor-fundo-apresentacao:#9f3478;
+    --cor-fundo-experienciaProfissional:#
+}
+
+body{
+    width: 80vw;
+    margin: auto;
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 200;
+    background-color: var(--plano-fundo);
+}
